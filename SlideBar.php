@@ -51,7 +51,7 @@
                     <span class="item">Configuracion</span>
                 </a>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="margin-left:30px; color:black; background-color: rgb(231, 224, 214); border-color: rgb(177, 171, 171);">
-                    <a class="dropdown-item" href="#">Editar Perfil</a>
+                    <a class="dropdown-item" href="EditarPerfil.php">Editar Perfil</a>
                     <a class="dropdown-item" href="#">Eliminar Perfil</a>
                     <a class="dropdown-item" href="InicioSesion.php">Cerrar Sesion</a>
                   </div>

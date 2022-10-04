@@ -26,7 +26,8 @@
 
 
    <main class="content" style="margin-left:230px; height:400px; width:1100px;">
-
+   <div class="container p-0">
+    
 
    <table class="table">
   <thead>
@@ -77,7 +78,7 @@
   </tbody>
 </table>
 
-
+</div>
 </main>
     
     
