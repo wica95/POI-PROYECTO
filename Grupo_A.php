@@ -74,34 +74,34 @@
   <tbody>
     <tr>
       <th scope="row">03/10/2022</th>
-      <td>POI</td>
+      <td>Evaluacion</td>
       <td ><a class="btn btn-light" href="#" role="button">Descargar</a></td>
     
     </tr>
     <tr>
       <th scope="row">05/12/2022</th>
-      <td>PROWEB2</td>
+      <td>Tarea1.pdf</td>
       <td ><a class="btn btn-light" href="#" role="button">Descargar</a></td>
     
     </tr>
     <tr>
     <th scope="row">23/11/2022</th>
-      <td>Administracion de proyectos</td>
+      <td>Tarea2.pdf</td>
       <td ><a class="btn btn-light" href="#" role="button">Descargar</a></td>
     </tr>
     <tr>
       <th scope="row">03/10/2022</th>
-      <td>POI</td>
+      <td>Tarea3.pdf</td>
       <td ><a class="btn btn-light" href="#" role="button">Descargar</a></td>
     </tr>
     <tr>
       <th scope="row">13/11/2022</th>
-      <td>PROWEB2</td>
+      <td>Documento.pdf</td>
       <td ><a class="btn btn-light" href="#" role="button">Descargar</a></td>
     </tr>
     <tr>
     <th scope="row">09/10/2022</th>
-      <td>Actuacion y direccion</td>
+      <td>Documento.pdf</td>
       <td ><a class="btn btn-light" href="#" role="button">Descargar</a></td>
     </tr>
   </tbody>
