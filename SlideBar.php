@@ -27,7 +27,7 @@
             <li>
                 <a href="ChatGrupal.php">
                     <span class="icon"><i class="fas fa-tachometer-alt"></i></span>
-                    <span class="item">Chat Grupal</span>
+                    <span class="item">Chat Grupall</span>
                 </a>
             </li>
             <li>
