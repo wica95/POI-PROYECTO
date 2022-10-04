@@ -1,0 +1,70 @@
+.apartado{
+    width:250px;
+    height:573px;
+    margin-left:226px;
+
+    background-color: rgb(185, 184, 182);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom:10px;
+
+display: flex;
+flex-direction: column;
+max-height: 600px;
+overflow-y: scroll;
+flex-shrink: 0;
+
+}
+
+.apartado2{
+    width:885px;
+    height:573px;
+    margin-left:478px;
+    margin-top:-572px;
+    background-color: rgb(223, 221, 221);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom:10px;
+   
+}
+
+.flex2{
+    width:810px; height:440px; background-color:rgb(228, 225, 225); margin-left:13px; margin-top:10px;
+    display: flex;
+flex-direction: column;
+max-height: 420px;
+overflow-y: scroll;
+flex-shrink: 0;
+}
+
+.menu-grupo{
+    width:888px; height:60px; background-color:rgb(155, 153, 153); margin-left:-10px; margin-top:-10px;
+}
+
+.btn-group button {
+    background-color: rgb(155, 153, 153); /* Green background */
+    border: 1px solid rgb(155, 153, 153); /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: black;
+  }
