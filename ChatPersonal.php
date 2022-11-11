@@ -1,3 +1,15 @@
+<?php include('./templates/header.php');
+include('./classes/dbh.classes.php');
+session_start();
+
+$ID_noticia=$_GET['ID_CHAT'];
+$ID_usuario=null;
+
+if(isset($_SESSION['ID'])){
+    $ID_usuario=$_SESSION['ID'];
+}
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -89,7 +101,33 @@
     
 
 <!---------------------------------   CHATS PERSONALES     -------------------------------------->
+<?php 
 
+            $consulta_coments = $conn->prepare("SELECT * FROM ver_mensajes");
+            $consulta_coments->setFetchMode(PDO::FETCH_ASSOC);
+            $consulta_coments->execute();
+
+            $ussername_coments; $foto_coments; $ID_coments;  $ID_usuario_coments; $ID_chat_coments; $texto_coments; $Fecha_coments; 
+
+            while($res_coments=$consulta_coments->fetch()){
+
+                $res_coments["Ussername"];
+                $res_coments["Foto_Perfil"];
+                $res_coments["ID_Mensaje"];
+                $res_coments["ID_usuario"];            
+                $res_coments["Mensaje"];
+                $res_coments["Fecha"];
+                
+                if($res_coments["ID_chat"] == $ID_chat){
+
+                    $ussername_coments = $res_coments["Ussername"];
+                    $foto_coments = $res_coments["Foto_Perfil"];
+                    $ID_coments = $res_coments["ID_Mensaje"];
+                    $ID_usuario_coments = $res_coments["ID_usuario"];                 
+                    $texto_coments = $res_coments["Mensaje"];
+                    $Fecha_coments = $res_coments["Fecha"];
+            
+            ?>
 
     <main class="content" style="margin-left:230px; height:400px; width:1100px;">
         <div class="container p-0">
